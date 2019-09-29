@@ -10,5 +10,4 @@ module "network" {
   region = "${var.region}"
   vpc_cidr = "${var.vpc_cidr}"
   zones = "${var.zones}"
-  num_servers = "1"
 }
