@@ -20,3 +20,16 @@ variable "private_subnet_cidr" {
 variable "aws_key_name" {
   default = "essentialskp"
 }
+variable "DB_name" {
+  default = "my_db"
+}
+variable "MYSQL_USERNAME" {
+  default = "nazar"
+}
+variable "MYSQL_PASSWORD" {
+  default = "zahid2017"
+}
+
+variable "s3_bucket_name" {
+  default = "projectbucket2019"
+}
